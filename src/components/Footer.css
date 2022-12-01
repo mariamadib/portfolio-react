@@ -1,0 +1,23 @@
+footer{
+    padding: 2rem var(--padding);
+    background-color: var(--bgColor-2);
+
+}
+
+footer .content-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .content-footer p{
+    color: var(--lightColor);
+    text-align: center;
+    width: 500px;
+    margin-top: 1rem;
+}
+
+footer .content-footer .end{
+    color: var(--primaryColor);
+    margin-top: 1rem;
+}

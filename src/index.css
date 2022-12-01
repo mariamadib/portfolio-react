@@ -1,3 +1,114 @@
+:root {
+  --primaryColor: 	#191970;
+  --secondaryColor: #7fffd4;
+  --lightColor: #ffffff;
+  --bgColor-1: #171a1c;
+  --bgColor-2: #22282a;
+  --padding: 8%;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+span{
+  color: var(--secondaryColor);
+}
+
+h2{
+  color: var(--secondaryColor);
+  cursor: pointer;
+}
+
+h4{
+  color: var(--lightColor);
+}
+h1{
+  margin: 1.7rem 0;
+  bottom: 70px;
+}
+
+h4{
+  margin: 1.25rem;
+}
+
+h5{
+  font-size: 1.37rem;
+}
+h3{
+  color:midnightblue;
+}
+p{
+  color: var(--secondaryColor);
+  letter-spacing: 1px;
+  line-height: 1.8rem;
+  font-size: 1 rem;
+}
+/* =====================Media querue============================ */
+@media screen and (max-width: 575px) {
+  :root {
+      --padding: 1.5rem;
+  
+  }
+  html{
+      font-size: 13px;
+  }
+
+  span{
+      text-align: center;
+  }
+  h1{
+      text-align: center;
+  }
+  h2{
+    margin-bottom: 60px;
+}
+}
+/*====================end of================================*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    
+  :root {
+      --padding: 1.5rem;
+  
+  }
+  html{
+      font-size: 13px;
+  }
+  h2{
+    margin-bottom: 60px;
+}
+
+}
+/*=========================end of==============================*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+  :root {
+      --padding: 1.5rem;
+  
+  }
+  html{
+      font-size: 13px;
+  }
+
+  span{
+      text-align: center;
+  }
+  h1{
+      text-align: center;
+  }
+  h2{
+    margin-bottom: 60px;
+}
+
+}
+
+
+
+
+/*
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +122,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*/

@@ -1,0 +1,22 @@
+.contact .text-center{
+    text-align: center;
+}
+
+.contact{
+    background-color: var(--bgColor-1);
+    padding: 2rem var(--padding);
+}
+
+
+.contact .box{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .card{
+    width: 300px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    
+}

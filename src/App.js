@@ -1,12 +1,26 @@
-import './App.css'
-import Header from './components/Header'
-import Hero from './components/Hero'
+import './App.css';
+import Header from './components/Header';
+import About from './components/About';
+import Services from './components/Services';
+import Skills from './components/Skills';
+import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
+
+
+
+
+
 
 function App() {
   return (
-    <>
+  <>
     <Header />
-    <Hero />
+    <About />
+    <Services />
+    <Skills />
+    <ContactMe />
+    <Footer />
+   
     </>
   );
 }

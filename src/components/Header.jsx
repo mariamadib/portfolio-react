@@ -22,6 +22,7 @@ const Header = () => {
                 <span></span>
             </button>
         </nav>
+
         <div class="content">
             <div class="container-texts">
                 <h4>Hello, my name is </h4>
@@ -34,10 +35,7 @@ const Header = () => {
                 <img src="/mypicture.png"alt="" class="mypicture" />
             </div>
         </div>
-
-
-    
-    </section>
+        </section>
     </>
   )
 }

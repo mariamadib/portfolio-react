@@ -1,0 +1,38 @@
+.services{
+    background-color: var(--bgColor-1);
+    padding: 2rem var(--padding);
+
+}
+
+.services .text-center{
+    text-align: center;
+}
+
+.services .box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.services .card{
+    width: 250px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    transition: 0.7s ease;
+    
+    
+
+    
+}
+.card :hover {
+    transform: scale(1.1);
+
+}
+.servixes .card em {
+    font-size: 10em;
+    text-align: center;
+    color: var(--primaryColor);
+    margin: 2rem;
+}
